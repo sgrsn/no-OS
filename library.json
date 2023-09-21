@@ -1,0 +1,25 @@
+{
+  "name": "no-OS",
+  "version": "1.0.0",
+  "license" : "",
+  "keywords": "",
+  "description": "",
+  "authors":
+  [
+    {
+      "name": "Hidaka Sato",
+      "maintainer": true
+    }
+  ],
+  "build":{
+    "srcFilter":
+      ["+<*>",
+       "-<doc/>",
+       "-<ci/>",
+       "-<tests/>",
+       "-<projects/>"
+      ]
+  },
+  "frameworks": "*",
+  "platforms": "*"
+}
